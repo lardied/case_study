@@ -1,0 +1,35 @@
+## PdfGenerator.py
+
+This files reads given files and creates a pdf file depending which format is given. 
+@var input(str): Expects a file or a folder.
+
+## Requirements
+
+### This module requires the following modules:
+* fpdf (https://pypi.org/project/fpdf/)
+* pillow (https://pypi.org/project/Pillow/)
+* docx (https://pypi.org/project/python-docx/)
+* odf (https://pypi.org/project/odfpy/)
+
+
+## TODO / Improvements
+* Not all formats are supported/tested yet.
+* One-fits-all: 
+
+## Usage/Example
+
+```
+#main.py
+
+make_pdf = PDFCreator(dir/to/file/path)  
+
+
+```
+
+```
+#cmd line
+
+python3 ./PdfGenerator.py dir/to/file/path
+
+
+```
